@@ -14,15 +14,10 @@ I hold B.Sc degrees in Mathematics and CS from the Hebrew University of Jerusale
 for any questions feel free to [drop me a line](themarketwizard1@gmail.com).
 
 
-<!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Currently reading:
+* [sed & awk](https://www.amazon.com/sed-awk-Dale-Dougherty/dp/1565922255#:~:text=sed%20%26%20awk%20describes%20two%20text,a%20larger%20data%20processing%20step.){:target="_blank"}. progress (13%)
+* [Ruby on Rails Tutorial](https://www.railstutorial.org/book){:target="_blank"}. progress (57%
 
 
-[jekyll-organization]: https://github.com/jekyll -->
+
+typing speed: 33 wpm.
