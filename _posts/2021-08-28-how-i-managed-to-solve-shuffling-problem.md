@@ -102,15 +102,15 @@ So we can do the following:
 $ paste -s -d,
 ```
 
-the flag `-d,` tells `paste` to use a comma as a separator. the flag `-s` tells `paste` to process each file serially (instead of in parallel).
+The flag `-d,` tells `paste` to use a comma as a separator. The flag `-s` tells `paste` to process each file serially (instead of in parallel).
 
-feeding this command the output from `shuf` we can get something like the following:
+Feeding this command the output from `shuf` we can get something like the following:
 
 ```bash
 $ shuf -e $ans1 $ans2 $ans3 $ans4 | paste -d, -s
 ```
 
-Yields: `Alice in Wonderland,Aladin,The Lion King,Beauty And the Beast`.
+This yields: `Alice in Wonderland,Aladin,The Lion King,Beauty And the Beast`.
 
 Now we are ready with a structured line to feed to `awk`.
 
@@ -128,19 +128,19 @@ The complete script line looks like so:
 shuf -e $ans1 $ans2 $ans3 $ans4 | paste -d, -s | awk -F ',' '{ printf "a.\t%s\nb.\t%s\nc.\t%s\nd.\t%s", $1, $2, $3, $4 }'
 ```
 
-this yields output like this:
+Notice the `printf` argument: `"a.\t%s\nb.\t%s\nc.\t%s\nd.\t%s"`. This simply specifies the format we want in the print:
+we expect `a.`, then a tab, then a string, then a line break, then `b.`, then a tab, then a string, then a line break, etc.
+
+This yields output like this:
 ```
 a.      The Lion King
 b.      Beauty and the Beast
 c.      Alice in Wonderland
 d.      Aladin
-
 ```
 
 Exactly as we wanted.
 
-Notice the `printf` argument: "a.\t%s\nb.\t%s\nc.\t%s\nd.\t%s". This simply specifies the format we want in the print: we expect `a.` then a tab then
-a string then a line break, then `b.` then a tab then a string then a line break, etc.
 
 
 Tags: `linux`, `shell`, `awk`, `text manipulation`, `shuf`
