@@ -7,7 +7,7 @@ categories: jekyll update
 
 ## The problem
 
-I have a shell script that displays multiple choice questions in terminal, in the following format:
+I have a [shell script](https://github.com/YoniA/terminal-quiz){:target="blank"} that displays multiple choice questions in terminal, in the following format:
 
 ```
 What is the best disney movie?
@@ -39,7 +39,7 @@ Since it is a shell script, I needed some shell-ready tools. No external package
 
 ### The shuf command
 
-The [shuf](https://linux.die.net/man/1/shuf) command can take a file, and display its lines in random order (shuffled). 
+The [shuf](https://linux.die.net/man/1/shuf){:target="blank"} command can take a file, and display its lines in random order (shuffled). 
 Using the `-e` flag, we can read input from command line, instead of a file.
 
 So using `shuf -e $ans1 $ans2 $ans3 $ans4` gives a shuffled output, such as the folloing:
@@ -57,7 +57,7 @@ Enter `awk`.
 
 ### Using awk
 
-[awk](https://linux.die.net/man/1/awk) is a powerful tool for dealing with a structured data. awk works on file a file line by line. Each line can be regarded
+[awk](https://linux.die.net/man/1/awk){:target="blank"} is a powerful tool for dealing with a structured data. awk works on file a file line by line. Each line can be regarded
 as a *record* consisting of *fileds* (like a record in a database). Each field is separated by a *field separator* (FS) which is by default a space.
 
 So by default, each word in a file is a field. Each field can be accessed by the field variable: `$1,...,$n` where `n` is the number of words in the line.
@@ -94,7 +94,7 @@ Here comes the `paste` command.
 
 ## Using paste
 
-the [paste](https://linux.die.net/man/1/paste) command is used to merge lines of a file, using a delimiter.
+the [paste](https://linux.die.net/man/1/paste){:target="blank"} command is used to merge lines of a file, using a delimiter.
 
 So we can do the following:
 
