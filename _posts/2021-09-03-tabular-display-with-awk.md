@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Tabular data display with awk"
-date:   2021-01-06 20:40:47 +0200
-categories: jekyll update
+date:   2021-09-03 20:40:47 +0200
+categories: linux shell text-manipulation awk column
 ---
 
 ## Use case

@@ -2,7 +2,7 @@
 layout: post
 title:  "How I managed to solve a text shuffling problem in shell script"
 date:   2021-08-28 07:40:47 +0200
-categories: jekyll update
+categories: linux, shell, awk, text manipulation, shuf
 ---
 
 ## The problem
