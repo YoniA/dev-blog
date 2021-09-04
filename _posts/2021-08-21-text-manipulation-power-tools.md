@@ -1,22 +1,22 @@
 ---
 layout: post
 title:  "Text manipulation power tools"
-date:   2021-07-01 22:07:00 +02
+date:   2021-08-01 22:07:00 +02
 categories: linux shell text-manipulation regex sed awk
 ---
 
 ## Introduction
 
-Every developer working on Unix-based machines (Linux/MacOs), is probably using the builtin [grep](https://linux.die.net/man/1/grep){target="blank"} command on a daily basis to extract lines matching a pattern.
+Every developer working on Unix-based machines (Linux/MacOs), is probably using the builtin [grep](https://linux.die.net/man/1/grep){:target="blank"} command on a daily basis to extract lines matching a pattern.
 
 While this tool is very useful, it has its limitations - it can only print matching lines.
 
 But why stop here? What if we want to modify each matched line? What if we want to extrcat only a range of lines matching a pattern (and not all matching lines)? 
 What if we want to apply several commands on a matching line?
 
-All these and more can be done with another builtin tool called [sed](https://linux.die.net/man/1/sed){target="blank"}.
+All these and more can be done with another builtin tool called [sed](https://linux.die.net/man/1/sed){:target="blank"}.
 
-If the lines in a file has some structure or pattern, like in `.csv` files for example, another tool which is called [awk](https://linux.die.net/man/1/awk){target="blank"} is very useful.
+If the lines in a file has some structure or pattern, like in `.csv` files for example, another tool which is called [awk](https://linux.die.net/man/1/awk){:target="blank"} is very useful.
 
 
 ## In praise of Unix tools
@@ -42,7 +42,7 @@ True, these tools has some learning curve, but the the potential of combining th
 
 The basis for all text manipulation tools is a solid understanding of *Regular Expressions* (separate post). After mastering this, the first tool to learn is `grep`.  
 
-Then we should learn `sed` and `awk`. Each of them has its use cases, and ` awk` can do everything `sed` can do, but generally, the rule of thumb is this:
+Then we should learn `sed` and `awk`. Each of them has its use cases, and `awk` can do everything `sed` can do, but generally, the rule of thumb is this:
 
 For simple edits like find-and-replace, delete lines, etc. we can use `sed`.
 
