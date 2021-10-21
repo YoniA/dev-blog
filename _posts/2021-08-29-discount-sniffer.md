@@ -129,7 +129,7 @@ Here I have replaced my actual credentials with fake ones.
 Invoking the script manually (`./discout_sniffer.sh`) yield something like this:
 
 !(sniffer example)[sniffer-example.jpeg]
-<img src="sniffer-example.jpeg" alt="sniffer example" width="400", height="600">
+<img src="./assets/images/sniffer-example.jpeg" alt="sniffer example" width="400", height="600">
 
 
 ## Automate sniffing with cron job
