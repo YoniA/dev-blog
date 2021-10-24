@@ -126,13 +126,38 @@ sed -i '6,$d' mail.txt
 
 Here I have replaced my actual credentials with fake ones.
 
-Invoking the script manually (`./discout_sniffer.sh`) yield something like this:
+Invoking the script manually (`./discout_sniffer.sh`) yields something like this:
 
-!(sniffer example)[sniffer-example.jpeg]
+
 <img src="sniffer-example.jpeg" alt="sniffer example" width="400", height="600">
 
 
 ## Automate sniffing with cron job
 
-Say we want to invoke the script every day at midnight. 
+Say we want to invoke the script every day at midnight. We can add this as a job in our `crontab` file, and specify its periodicity.
+
+Remembar that each line in the `crontab` file has the following format:
+
+```
+# ┌───────────── minute (0 - 59)
+# │ ┌───────────── hour (0 - 23)
+# │ │ ┌───────────── day of the month (1 - 31)
+# │ │ │ ┌───────────── month (1 - 12)
+# │ │ │ │ ┌───────────── day of the week (0 - 6) (Sunday to Saturday;
+# │ │ │ │ │                                   7 is also Sunday on some systems)
+# │ │ │ │ │
+# │ │ │ │ │
+# * * * * * <command to execute>
+```
+
+
+We can open our `crontab` file with `crontab -e` and add the following line:
+
+``` bash
+0 0 * * * cd /home/yoni/whishlist-discount-sniffer && ./discount-sniffer.sh
+```
+
+here `*` denotes all values in the range. So, our line tells the fllowing: invoke the script at 00:00, every day of month, every month, every day of week. Or equivalently, every day at midnight.
+
+Notice that we first have to `cd` into the project directory, so the local invocation of the script succeeds.
 
