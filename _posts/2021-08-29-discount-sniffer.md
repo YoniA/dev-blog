@@ -129,8 +129,8 @@ Here I have replaced my actual credentials with fake ones.
 Invoking the script manually (`./discout_sniffer.sh`) yields something like this:
 
 
-<img src="yonia.github.io/assets/images/sniffer-example.jpeg" alt="sniffer example" width="400", height="600">
-![sniffer example]({{ site.url }}/assets/images/sniffer-example.jpeg)
+<img src="assets/images/sniffer-example.jpeg" alt="sniffer example" width="400", height="600">
+![sniffer example](assets/images/sniffer-example.jpeg)
 
 ## Automate sniffing with cron job
 
