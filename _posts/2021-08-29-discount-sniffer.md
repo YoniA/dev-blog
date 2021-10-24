@@ -8,21 +8,18 @@ categories: linux shell script curl sed grep
 
 ## The problem
 
-I have a book whishlist in Book Depository, and I used to occasionaly visit the site and see if there are any special offeres and discount for some of my whishlist books.
-This proccess is of course very inefficient, and maybe I missed some great deals on the days I missed.
+I have a book whishlist in [Book Depository](https://www.bookdepository.com/), and I used to occasionaly visit the site and see if there are any special offeres and discount for some of my whishlist books.
+This proccess is of course very inefficient, and maybe I missed some great deals on the days I didn't check the site.
 
 There are several ways to automate this process.
-First, one could build a crawler using Selenium to navigate the site. But I decided to take the shell script approach as it is more
-lightweigth and does not involve spawning a web browser. Besides, it was a nice challenge with a good learning process.
+For example, one could build a crawler using [Selenium](https://www.selenium.dev/) to navigate the site. But I decided to take the shell script approach as it is more
+lightweight and does not involve the overhead of spawning a web browser for each sniffing session. In addition, the code is much shorter, using some standard tools like `curl`, `grep` and `sed`.
 
-This approach involves several aspects detailed bellow:
+The process is outlined bellow.
 
 ## Getting page content
 
-First, I made a text file containing all the urls of my books in the whislist. Each url in a separate line. For each url, I used `curl` to fetch the page content.
-
-Having the page downloaded, I had to parse it using `sed` to look for the discount element and extract the amount number.
-In addition, I used `sed` to extract the book name for the url (see details bellow).
+First, I made a text file containing all the urls of my books in the whislist. Each url in a separate line. For each url, I used [curl](https://curl.se/docs/manpage.html) to fetch the page content, then parse it and extract the book name and the amount of discount offered on this title (if any).
 
 
 ## parsing the URL line
@@ -30,34 +27,33 @@ I have noticed that each book has a fixed url format, like so:
 `https://www.bookdepository.com/Classic-Shell-Scripting-Arnold-Robbins/9780596005955`. 
 
 The middle part of the url contains the bookname and author(s) all separated by dash characters.
-since there is no separation between the book name and author, and a book can have seveal authors, I decided to consider the bookname as the whole string of bookname and authror. In the example above, the bookname would be: `Classic-Shell-Scripting-Arnold-Robbins`.
+Since there is no separation between the book name and author, and a book can have seveal authors, I decided to consider the bookname as the whole string of bookname and author. In the example above, the bookname would be: `Classic-Shell-Scripting-Arnold-Robbins`.
 
-In order to extract this from the URL line I used the following command:
+In order to extract the bookname, I piped the url line into `sed` with the following substitution:
 ```bash
 book_name=$(echo $url | sed 's/.*www\.bookdepository\.com\/\(.*\)\/.*/\1/')
 ```
-the URL line is pipe into `sed`, which matches the whole line, and the book name part in a catch-group, and substitute (replace) the whole line with the catch group.
 
-remember that the general replacement format in `sed` is `s/pattern/replacement/`
+Remember that the general replacement format in `sed` is `s/pattern/replacement/`, where `pattern` is a regular expression that matches a string in current line.
+In our case, the `pattern` part is:
+```
+/.*www\.bookdepository\.com\/\(.*\)\/.*/`
+```
 
-in our case. the `pattern` part is:
-`/.*www\.bookdepository\.com\/\(.*\)\/.*/`
+which matches lines that contain any characters, followed by `www.bookdepository.com/something/anything`.
 
-
-match lines that contain any characters, followed by `www.bookdepositor.com/something/anything`
-
-notice that we have to escape slashes and dots with backslashes.
+Notice that we have to escape slashes and dots (metacharacters) with backslashes.
  
-  the `something` part between the last two slashes is the bookname, and is enclosed by escaped opening and closing brackets `\(` and `\)`, which denotes a catch group.
+The `something` part between the last two slashes is the bookname, enclosed inside a [capture group](https://www.regular-expressions.info/refcapture.html), which is denoted by the escaped opening and closing brackets `\(` and `\)`.
 
-the `replcement part` is just `/\1/` which is the content of the first (and only) catch group from the `pattern ` part. i.e, the bookname.
+The `replcement part` is just `/\1/` which is the content of the first (and only) capture group from the `pattern` part. i.e, the bookname.
 
 The discount amount is parsed in a similar manner (using `grep` this time).
 
 
 ## Send email notifications
 
-In order to send an email from the script,  i prepared an email template text file with the appropriate headers only:
+In order to send an email from the script, I prepared an email template in a text file, named `mail.txt`,  with the appropriate headers only:
 
 The content of `mail.txt`:
 ```
@@ -78,8 +74,7 @@ curl --ssl-reqd \ --url 'smtps://smtp.gmail.com:465' \ --user 'foo.bar@example.c
 
 ## Gmail - allow less secure app access
 
-One issue with Gmail is that it prevents this kind of login by default, for security reasons. Gmail considers this kind of login a login from third party app and blocks it.  
-
+One issue with Gmail is that it prevents this kind of login by default, for security reasons. Gmail considers this a login from third party app and blocks it.  
 In order to allow it, we have to manually enter the Gmail account, and under "Settings" --> "Security",  turn on "Allow less secure apps". 
 
 
@@ -148,11 +143,12 @@ Remembar that each line in the `crontab` file has the following format:
  │ │ │ │ │
  * * * * * <command to execute>
 ```
+(source: wikipedia)
 
 
 We can open our `crontab` file with `crontab -e` and add the following line:
 
-``` bash
+``` 
 0 0 * * * cd /home/yoni/whishlist-discount-sniffer && ./discount-sniffer.sh
 ```
 
@@ -160,3 +156,5 @@ here `*` denotes all values in the range. So, our line tells the fllowing: invok
 
 Notice that we first have to `cd` into the project directory, so the local invocation of the script succeeds.
 
+
+See the [github repo](https://github.com/YoniA/various-shell-scripts/tree/master/whishlist-discount-sniffer) for this sniffer.
