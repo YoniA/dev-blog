@@ -129,7 +129,7 @@ Here I have replaced my actual credentials with fake ones.
 Invoking the script manually (`./discout_sniffer.sh`) yields something like this:
 
 
-<img src="{{ site.baseurl }}/assets/images/sniffer-example.jpeg" alt="sniffer example" width="370", height="405">
+<img src="{{ site.baseurl }}/assets/images/sniffer-example.jpeg" alt="sniffer example" width="370" height="405">
 
 ## Automate sniffing with cron job
 
