@@ -130,7 +130,7 @@ Invoking the script manually (`./discout_sniffer.sh`) yields something like this
 
 
 <img src="sniffer-example.jpeg" alt="sniffer example" width="400", height="600">
-
+![sniffer example]({{ site.url }}/assets/images/sniffer-example.jpeg)
 
 ## Automate sniffing with cron job
 
