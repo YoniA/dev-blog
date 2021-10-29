@@ -47,7 +47,7 @@ export class ApiService {
 
 Given that we have implemented the `getPost(id)` method to get a single post, how do we implement `getPosts(ids)`?
 
-one approach is to implement a `getAllPosts()` method, and then use it inside `getPosts(ids)` to filter the desired posts:
+One approach is to implement a `getAllPosts()` method, and then use it inside `getPosts(ids)` to filter the desired posts:
 
 
 
@@ -67,9 +67,9 @@ Here, we iterated the post ids array, and for each post, subscribed to `getPost(
 
 Notice that we used the `rxjs` [of function](https://rxjs.dev/api/index/function/of) to return the posts array as an observable.
 
-This approach has a major problem. 
+However, this approach has a major problem:
 
-First, since each `getPost()` is asynchronous, posts may arrive at diffent order, from the order of given ids. Furthermore, this order might change
+Since each `getPost()` is asynchronous, posts may arrive at diffent order, from the order of given ids. Furthermore, this order might change
 every time `getPosts` is called.
 
 So if in our template we want to display posts in the given order, this would not work.
@@ -142,7 +142,7 @@ export class ApiService {
 }
 ```
 
-## Stackbitz demo
+## Stackblitz demo
 
 I have careated a [demo Angular app in Stackbitz](https://stackblitz.com/edit/angular-ivy-e7ttsq?file=src%2Fapp%2Fapi.service.ts), with the given sevice, using fake API calls to [jsonplaceholder site](https://jsonplaceholder.typicode.com/) (an excellent resource for that), instead of a real backend. You can fiddle with the code there.
 

@@ -18,9 +18,10 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
 
 ## Currently reading:
 
-* 
-* [sed & awk](https://www.amazon.com/sed-awk-Dale-Dougherty/dp/1565922255#:~:text=sed%20%26%20awk%20describes%20two%20text,a%20larger%20data%20processing%20step.){:target="_blank"}. progress (43%)
+* [The Well-Grounded Rubyist](https://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1617295213/ref=sr_1_4?dchild=1&qid=1635531524&refinements=p_27%3ADavid+A.+Black&s=books&sr=1-4&text=David+A.+Black){:target="_blank"}.
+
+* [Practical Vim](https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275){:target="_blank"}.
 
 
 
-Typing speed: 40 wpm. Goal: ~~60 wpm~~ 80 wpm. Practicing occasionally at [keybr](){:target="_blank"}.
+Typing speed: 40 wpm. Goal: ~~60 wpm~~ 80 wpm. Practicing occasionally at [keybr](https://www.keybr.com/){:target="_blank"}.
