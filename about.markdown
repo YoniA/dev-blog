@@ -2,15 +2,16 @@
 layout: page
 title: About
 permalink: /about/
+image: /assets/images/sniffer-example.jpeg
 ---
-
+![cover image]({{ page.image | relative_url }})
 Welcome to my personal blog!
 
 My name is Yoni, and I am a fullstack developer based in Jerualem.
 
-I hold B.Sc degrees in Mathematics and CS from the Hebrew University of Jerusalem.
+I hold B.Sc degree in Computer Science from the Hebrew University of Jerusalem.
 
-I find myself particularly attracted to Linux, building shell scripts using command line tools like curl, sed, awk, vim etc, and the infinite possibilities to combine them to
+I find myself particularly attracted to the Linux ecosystem, building shell scripts using command line tools like curl, sed, awk, vim etc, and the infinite possibilities to combine them to
 create great things.
 
 For any questions feel free to drop me a line: themarketwizard1@gmail.com.

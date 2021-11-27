@@ -27,7 +27,7 @@ We want to implement all CRUD operations on posts, using the `rxjs` library.
 
 The frontend `ApiService` looks something like this:
 
-```typescript
+~~~typescript
 @Injectable({ providedIn: 'root' })
 export class ApiService {
   BASE_URL = 'https://jsonplaceholder.typicode.com';
@@ -43,7 +43,7 @@ export class ApiService {
   }
 }
 
-```
+~~~
 
 Given that we have implemented the `getPost(id)` method to get a single post, how do we implement `getPosts(ids)`?
 
