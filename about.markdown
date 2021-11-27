@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 image: /assets/images/sniffer-example.jpeg
 ---
-![cover image]({{ page.image | relative_url }})
 Welcome to my personal blog!
 
 My name is Yoni, and I am a fullstack developer based in Jerualem.
