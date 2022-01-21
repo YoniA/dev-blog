@@ -22,6 +22,26 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
 
 * [Practical Vim](https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275){:target="_blank"}.
 
+    <table>
+      <tr>
+        <td>The well grounded Rubyst</td>
+        <td>
+          <img
+            class="book-cover"
+            src="https://images-na.ssl-images-amazon.com/images/I/415V5GEzUVL._SX397_BO1,204,203,200_.jpg"
+          />
+        </td>
+
+        <td>Practical Vim</td>
+        <td>
+          <img
+            class="book-cover"
+            src="https://images-na.ssl-images-amazon.com/images/I/41Uki3+V7nL._SX415_BO1,204,203,200_.jpg"
+          />
+        </td>
+      </tr>
+    </table>
+
 
 ## Finished reading
 
