@@ -28,3 +28,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
 * [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052#customerReviews){:target="_blank"}.
 
 Typing speed: 48 wpm. Goal: ~~60 wpm~~ 80 wpm. Practicing occasionally at ~~[keybr](https://www.keybr.com/){:target="_blank"}~~ [typeracer](https://play.typeracer.com){:target="_blank"}.
+
+## Project Euler
+
+<img src="https://projecteuler.net/profile/YoniA.png" alt="Project Euler badge" width="200" height="60">
