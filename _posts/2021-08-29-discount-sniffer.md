@@ -37,7 +37,7 @@ book_name=$(echo $url | sed 's/.*www\.bookdepository\.com\/\(.*\)\/.*/\1/')
 Remember that the general replacement format in `sed` is `s/pattern/replacement/`, where `pattern` is a regular expression that matches a string in current line.
 In our case, the `pattern` part is:
 ```
-/.*www\.bookdepository\.com\/\(.*\)\/.*/`
+/.*www\.bookdepository\.com\/\(.*\)\/.*/
 ```
 
 which matches lines that contain any characters, followed by `www.bookdepository.com/something/anything`.
@@ -157,4 +157,4 @@ here `*` denotes all values in the range. So, our line tells the fllowing: invok
 Notice that we first have to `cd` into the project directory, so the local invocation of the script succeeds.
 
 
-See the [github repo](https://github.com/YoniA/various-shell-scripts/tree/master/whishlist-discount-sniffer) for this sniffer.
+See the [github repo](https://github.com/YoniA/various-shell-tools/tree/master/whishlist-discount-sniffer) for this sniffer.

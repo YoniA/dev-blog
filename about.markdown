@@ -23,5 +23,8 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
 * [Practical Vim](https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275){:target="_blank"}.
 
 
+## Finished reading:
 
-Typing speed: 40 wpm. Goal: ~~60 wpm~~ 80 wpm. Practicing occasionally at [keybr](https://www.keybr.com/){:target="_blank"}.
+* [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052#customerReviews){:target="_blank"}.
+
+Typing speed: 48 wpm. Goal: ~~60 wpm~~ 80 wpm. Practicing occasionally at ~~[keybr](https://www.keybr.com/){:target="_blank"}~~ [typeracer](https://play.typeracer.com){:target="_blank"}.
