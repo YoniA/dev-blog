@@ -22,7 +22,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
   <tr>
     <td>
       <img
-        style="zoom: 0.4"
+        width="160" height="200"
         class="book-cover"
         src="https://images-na.ssl-images-amazon.com/images/I/415V5GEzUVL._SX397_BO1,204,203,200_.jpg"
       />
@@ -30,7 +30,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
 
   <td>
     <img
-      style="zoom: 0.4"
+      width="160" height="200"
       class="book-cover"
       src="https://images-na.ssl-images-amazon.com/images/I/41Uki3+V7nL._SX415_BO1,204,203,200_.jpg"
     />
@@ -60,7 +60,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
       <tr>
         <td>
           <img
-            style="zoom: 0.4"
+            width="160" height="200"
             class="book-cover"
             src="	https://images-na.ssl-images-amazon.com/images/I/51dxkfagmwL._SX380_BO1,204,203,200_.jpg"
           />
