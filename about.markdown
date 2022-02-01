@@ -51,6 +51,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         target="blank"
         >Practical Vim</a
       >
+	<div>progress: 35%</div>
     </td>
   </tr>
   <tr>
@@ -69,6 +70,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         target="blank"
         >CSS in Depth</a
       >
+	<div> progress: 1%</div>
     </td>
   </tr>
 
