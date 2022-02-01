@@ -22,15 +22,15 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
   <tr>
     <td>
       <img
-        width="160" height="200"
+        width="159.6" height="199.6"
         class="book-cover"
         src="https://images-na.ssl-images-amazon.com/images/I/415V5GEzUVL._SX397_BO1,204,203,200_.jpg"
       />
     </td>
 
   <td>
-    <img
-      width="160" height="200"
+    <img  
+      width="159.6" height="199.6"
       class="book-cover"
       src="https://images-na.ssl-images-amazon.com/images/I/41Uki3+V7nL._SX415_BO1,204,203,200_.jpg"
     />
@@ -52,6 +52,26 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
       >
     </td>
   </tr>
+  <tr>
+    <td>
+      <img
+        width="159.6" height="199.6"
+        class="book-cover"
+        src="https://images-na.ssl-images-amazon.com/images/I/41fm+F1lc7L._SX397_BO1,204,203,200_.jpg"
+      />
+    </td>
+  </tr>
+   <tr>
+    <td>
+      <a
+        href="https://www.amazon.com/CSS-Depth-Keith-J-Grant/dp/1617293458"
+        target="blank"
+        >CSS in Depth</a
+      >
+    </td>
+  </tr>
+
+  
 </table>
 
 ## Finished reading
@@ -60,7 +80,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
       <tr>
         <td>
           <img
-            width="160" height="200"
+            width="159.6" height="199.6"
             class="book-cover"
             src="	https://images-na.ssl-images-amazon.com/images/I/51dxkfagmwL._SX380_BO1,204,203,200_.jpg"
           />
