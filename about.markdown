@@ -43,6 +43,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         target="blank"
         >The Well-Grounded Rubyist</a
       >
+	<div>progress: 84%</div>
     </td>
     <td>
       <a
