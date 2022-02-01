@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Understanding the spaceship operator <=> in Ruby"
+date:   2022-01-27 20:40:47 +0200
+categories: shorts configuration linux shell
+---
 
 ## Understanding the spaceship operator <=> in Ruby
 
