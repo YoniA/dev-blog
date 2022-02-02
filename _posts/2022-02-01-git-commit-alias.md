@@ -5,10 +5,6 @@ date:   2022-02-01 20:40:47 +0200
 categories: shorts configuration linux shell
 ---
 
-
-## Adding an alias for git commit
-
-
 Often I work on projects where the commit message is not important to me. For example, contributing content to the same database again and again. Having to come up with commit messages is tedious and repetative, and I am happy with a generic date-time message.
 
 So we can do:
@@ -25,7 +21,7 @@ This will output something like this:
 
 So far so good. But even writing every time `git commit -m "$(date)"` is annoying.
 
-To mitigate that, we can add an *alias* to our `~/.baschrc` or `~/.zshrc` file:
+To mitigate that, we can add an *alias* to our `~/.bashrc` or `~/.zshrc` file:
 
 ```bash
 alias commit="git commit -m \"$(date)\""
