@@ -28,13 +28,13 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
       />
     </td>
 
-  <td>
-    <img  
-      width="159.6" height="199.6"
-      class="book-cover"
-      src="https://images-na.ssl-images-amazon.com/images/I/41Uki3+V7nL._SX415_BO1,204,203,200_.jpg"
-    />
-  </td>
+    <td>
+      <img  
+        width="159.6" height="199.6"
+        class="book-cover"
+        src="https://images-na.ssl-images-amazon.com/images/I/41Uki3+V7nL._SX415_BO1,204,203,200_.jpg"
+      />
+    </td>
   </tr>
   <tr>
     <td>
@@ -43,7 +43,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         target="blank"
         >The Well-Grounded Rubyist</a
       >
-	<div>progress: 84%</div>
+    	<div>progress: 88%</div>
     </td>
     <td>
       <a
@@ -51,7 +51,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         target="blank"
         >Practical Vim</a
       >
-	<div>progress: 35%</div>
+	    <div>progress: 42%</div>
     </td>
   </tr>
   <tr>
@@ -62,6 +62,13 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         src="https://images-na.ssl-images-amazon.com/images/I/41fm+F1lc7L._SX397_BO1,204,203,200_.jpg"
       />
     </td>
+    <td>
+      <img
+        width="159.6" height="199.6"
+        class="book-cover"
+        src="	https://images-na.ssl-images-amazon.com/images/I/51U8srcB3oL._SX379_BO1,204,203,200_.jpg"
+      />
+    </td>
   </tr>
    <tr>
     <td>
@@ -70,7 +77,15 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         target="blank"
         >CSS in Depth</a
       >
-	<div> progress: 1%</div>
+	    <div> progress: 4%</div>
+    </td>
+    <td>
+      <a
+        href="https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4"
+        target="blank"
+        >Mastering Bitcoin</a
+      >
+	    <div> progress: 5%</div>
     </td>
   </tr>
 
