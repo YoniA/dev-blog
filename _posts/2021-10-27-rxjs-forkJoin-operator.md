@@ -146,5 +146,5 @@ export class ApiService {
 
 I have careated a [demo Angular app in Stackbitz](https://stackblitz.com/edit/angular-ivy-e7ttsq?file=src%2Fapp%2Fapi.service.ts), with the given sevice, using fake API calls to [jsonplaceholder site](https://jsonplaceholder.typicode.com/) (an excellent resource for that), instead of a real backend. You can fiddle with the code there.
 
-<iframe src="https://stackblitz.com/edit/angular-ivy-e7ttsq?embed=1&file=src/app/api.service.ts&hideExplorer=1&hideNavigation=1&view=editor" width="740" height="400">
+<iframe src="https://stackblitz.com/edit/angular-ivy-e7ttsq?embed=1&file=src/app/api.service.ts&hideExplorer=1&hideNavigation=1" width="740" height="400">
 <!-- <iframe src="https://stackblitz.com/edit/angular-ivy-e7ttsq?embed=1&file=src/app/api.service.ts&hideExplorer=1&hideNavigation=1&view=editor"> -->
