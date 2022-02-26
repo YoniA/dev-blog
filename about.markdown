@@ -18,7 +18,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
 
 ## Currently reading
 
-<table style="text-align: center; border-spacing:20px; width: fit-content">
+<table style="text-align: center; border-spacing:20px; max-width: 380px">
   <tr>
     <td>
       <img
@@ -78,7 +78,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
 
 ## Finished reading
 
-<table style="text-align: center; border-spacing:20px; width:fit-content">
+<table style="text-align: center; border-spacing:20px; max-width: 380px">
       <tr>
         <td>
           <img
