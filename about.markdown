@@ -21,14 +21,6 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
 <table style="text-align: center; border-spacing:20px; width: fit-content">
   <tr>
     <td>
-      <img
-        width="159.6" height="199.6"
-        class="book-cover"
-        src="https://images-na.ssl-images-amazon.com/images/I/415V5GEzUVL._SX397_BO1,204,203,200_.jpg"
-      />
-    </td>
-
-    <td>
       <img  
         width="159.6" height="199.6"
         class="book-cover"
@@ -37,14 +29,6 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
     </td>
   </tr>
   <tr>
-    <td>
-      <a
-        href="https://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1617295213/ref=sr_1_1?keywords=the+well+grounded+rubyist&qid=1642778315&sprefix=the+well+grou%2Caps%2C312&sr=8-1"
-        target="blank"
-        >The Well-Grounded Rubyist</a
-      >
-    	<div>progress: 88%</div>
-    </td>
     <td>
       <a
         href="https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275/ref=sr_1_1?crid=1I28TO08V3UKJ&keywords=practical+vim&qid=1642775788&sprefix=practical+vim%2Caps%2C223&sr=8-1"
@@ -103,6 +87,13 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
             src="	https://images-na.ssl-images-amazon.com/images/I/51dxkfagmwL._SX380_BO1,204,203,200_.jpg"
           />
         </td>
+        <td>
+          <img
+            width="159.6" height="199.6"
+            class="book-cover"
+            src="https://images-na.ssl-images-amazon.com/images/I/415V5GEzUVL._SX397_BO1,204,203,200_.jpg"
+          />
+      </td>
       </tr>
       <tr>
         <td>
@@ -111,6 +102,12 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
             target="blank"
             >The Pragmatic Programmer</a
           >
+        </td>
+        <td>
+          <a
+            href="https://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1617295213/ref=sr_1_1?keywords=the+well+grounded+rubyist&qid=1642778315&sprefix=the+well+grou%2Caps%2C312&sr=8-1"
+            target="blank"
+            >The Well-Grounded Rubyist</aW>
         </td>
       </tr>
     </table>
