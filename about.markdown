@@ -120,6 +120,7 @@ Solving problems mainly in Ruby.
 
 <img src="https://projecteuler.net/profile/YoniA.png" alt="Project Euler badge" width="200" height="60">
 
+Friend key: 683718_83395dfb72ce4c4f822ca9831f32b845
 
 ## Preferred editor
 
