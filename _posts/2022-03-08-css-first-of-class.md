@@ -58,6 +58,3 @@ What we did here, is targeting  the element with the `.progress.unreached` class
 ### Stackblitz demo
 
 See the Stackblitz demo for this project [here](https://stackblitz.com/edit/web-platform-yqkgpm?file=styles.css).
-
-See: [](https://stackoverflow.com/questions/2717480/css-selector-for-first-element-with-class)
-
