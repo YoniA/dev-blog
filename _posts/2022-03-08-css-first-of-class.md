@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CSS: How to select first-of-class element"
-date:   2022-03-08 20:40:47 +0200
+date:   2022-03-08 09:40:47 +0200
 categories: jekyll css
 ---
 ### Motivation
@@ -29,7 +29,7 @@ Each state has its color to distinguish it from others.
 
 Now, I want to select the first element that has the `.unreached` class, to add to it a `::before` pseudo-element.
 
-Clearly, the `:first-child` `:nth-child` selectors won't work here, since the first `.unreached` element may not be the fist child of its parent, and we don't  want to keep track of child numbers etc.
+Clearly, the `:first-child` and `:nth-child` selectors won't work here, since the first `.unreached` element may not be the fist child of its parent, and we don't  want to keep track of child numbers etc.
 
 Another option, is the CSS `:first-of-type` pseudo-class selector. But it works only on element types (tag names, like `p`, `div`, etc.), and not classes.
 
