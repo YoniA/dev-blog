@@ -7,6 +7,7 @@ categories: jekyll css
 ### Motivation
 
 I have implemented a progressbar that is composed from the following HTML:
+
 ```html
 <body>
 	<ul  class="progressbar">
@@ -33,6 +34,7 @@ Clearly, the `:first-child` `:nth-child` selectors won't work here, since the fi
 Another option, is the CSS `:first-of-type` pseudo-class selector. But it works only on element types (tag names, like `p`, `div`, etc.), and not classes.
 
 Surprisingly, there is no `:first-of-class` selector in CSS.
+
 
 ## The solution
 
