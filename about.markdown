@@ -42,7 +42,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         target="blank"
         >CSS in Depth</a
       >
-	    <div> progress: 4%</div>
+	    <div> progress: 16%</div>
     </td>
     <td>
       <a
@@ -69,7 +69,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         target="blank"
         >Mastering Bitcoin</a
       >
-	    <div> progress: 7%</div>
+	    <div> progress: 18%</div>
     </td>
   </tr>
 
