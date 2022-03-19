@@ -42,7 +42,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         target="blank"
         >CSS in Depth</a
       >
-	    <div> progress: 16%</div>
+	    <div> progress: 30%</div>
     </td>
     <td>
       <a
@@ -61,6 +61,13 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         src="	https://images-na.ssl-images-amazon.com/images/I/51U8srcB3oL._SX379_BO1,204,203,200_.jpg"
       />
     </td>
+    <td>
+      <img
+        width="159.6" height="199.6"
+        class="book-cover"
+        src="	https://images-na.ssl-images-amazon.com/images/I/5189dK2traL._SX384_BO1,204,203,200_.jpg"
+      />
+    </td>
   </tr>
    <tr>
     <td>
@@ -70,6 +77,14 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         >Mastering Bitcoin</a
       >
 	    <div> progress: 18%</div>
+    </td>
+    <td>
+      <a
+        href="https://www.amazon.com/ng-book-Complete-Angular-Nathan-Murray/dp/1985170280/ref=sr_1_1?qid=1647713384&refinements=p_27%3AFelipe+Coury&s=books&sr=1-1&text=Felipe+Coury"
+        target="blank"
+        >ng-book</a
+      >
+	    <div> progress: 10%</div>
     </td>
   </tr>
 

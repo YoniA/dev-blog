@@ -17,7 +17,7 @@ Specifically I want it to accept a single letter of either `a` or `b` or `c` or 
 
 ## Client side solution
 
-Apparently, the `input` tag has a `pattern` attribute which allow one to specify a Regex pattern for the received input.
+Apparently, the `input` tag has a `pattern` attribute which allow us to specify a Regex pattern for the received input.
 
 It can be used like so: 
 
