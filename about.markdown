@@ -67,7 +67,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
       <a
         href="https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330"
         target="blank"
-        >Practical Object-Oriented Design in Ruby</a
+        >Practical Object Oriented Design in Ruby</a
       >
 	    <div> progress: 32%</div>
     </td>
