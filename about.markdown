@@ -58,14 +58,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
       <img
         width="159.6" height="199.6"
         class="book-cover"
-        src="	https://images-na.ssl-images-amazon.com/images/I/51U8srcB3oL._SX379_BO1,204,203,200_.jpg"
-      />
-    </td>
-    <td>
-      <img
-        width="159.6" height="199.6"
-        class="book-cover"
-        src="	https://images-na.ssl-images-amazon.com/images/I/5189dK2traL._SX384_BO1,204,203,200_.jpg"
+        src="https://images-na.ssl-images-amazon.com/images/I/51vkmxCfmRL._SX381_BO1,204,203,200_.jpg"
       />
     </td>
   </tr>
@@ -74,17 +67,9 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
       <a
         href="https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4"
         target="blank"
-        >Mastering Bitcoin</a
+        >Practical Object-Oriented Design in Ruby</a
       >
-	    <div> progress: 18%</div>
-    </td>
-    <td>
-      <a
-        href="https://www.amazon.com/ng-book-Complete-Angular-Nathan-Murray/dp/1985170280/ref=sr_1_1?qid=1647713384&refinements=p_27%3AFelipe+Coury&s=books&sr=1-1&text=Felipe+Coury"
-        target="blank"
-        >ng-book</a
-      >
-	    <div> progress: 10%</div>
+	    <div> progress: 32%</div>
     </td>
   </tr>
 
