@@ -65,7 +65,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
    <tr>
     <td>
       <a
-        href="https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain-ebook/dp/B071K7FCD4"
+        href="https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330"
         target="blank"
         >Practical Object-Oriented Design in Ruby</a
       >
