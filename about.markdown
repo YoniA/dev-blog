@@ -2,7 +2,6 @@
 layout: page
 title: About
 permalink: /about/
-image: /assets/images/sniffer-example.jpeg
 ---
 Welcome to my personal blog!
 
@@ -42,7 +41,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         target="blank"
         >CSS in Depth</a
       >
-	    <div> progress: 30%</div>
+	    <div> progress: 68%</div>
     </td>
     <td>
       <a
@@ -50,7 +49,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         target="blank"
         >Practical Vim</a
       >
-	    <div>progress: 50%</div>
+	    <div>progress: 65%</div>
     </td>
   </tr>
   <tr>
@@ -61,6 +60,13 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         src="https://images-na.ssl-images-amazon.com/images/I/51vkmxCfmRL._SX381_BO1,204,203,200_.jpg"
       />
     </td>
+    <td>
+      <img
+        width="159.6" height="199.6"
+        class="book-cover"
+        src="https://images-na.ssl-images-amazon.com/images/I/41lozQ0E9ML._SX397_BO1,204,203,200_.jpg"
+      />
+    </td>
   </tr>
    <tr>
     <td>
@@ -69,7 +75,15 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         target="blank"
         >Practical<br/> Object-Oriented<br/> Design in Ruby</a
       >
-	    <div> progress: 32%</div>
+	    <div> progress: 38%</div>
+    </td>
+    <td>
+      <a
+        href="https://www.amazon.com/Angular-Development-Typescript-Yakov-Fain/dp/1617295345"
+        target="blank"
+        >Practical<br/> Angular Development<br/> with TypeScript</a
+      >
+	    <div> progress: 20%</div>
     </td>
   </tr>
 
@@ -124,7 +138,6 @@ Friend key: 683718_83395dfb72ce4c4f822ca9831f32b845
 
 ## Preferred editor
 
-Vim for simple editing and small projects, VSCode (still) for bigger projects.
+Vim for simple editing and small projects, VSCode (with Vim keybindings) for bigger projects.
 
-Typing speed: 48 WPM. Goal: 80 WPM. practicing occasionaly at [typeracer](https://play.typeracer.com/){:target="_blank"}. 
-
+Typing speed: 57 WPM. Goal: 80 WPM. practicing occasionaly at [typeracer](https://play.typeracer.com/){:target="_blank"}. 
