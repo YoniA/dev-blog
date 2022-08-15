@@ -140,4 +140,12 @@ Friend key: 683718_83395dfb72ce4c4f822ca9831f32b845
 
 Vim for simple editing and small projects, VSCode (with Vim keybindings) for bigger projects.
 
-Typing speed: 57 WPM. Goal: 80 WPM. practicing occasionaly at [typeracer](https://play.typeracer.com/){:target="_blank"}. 
+
+## Typing speed
+
+Practicing occasionaly at [typeracer](https://play.typeracer.com/){:target="_blank"}. 
+
+<img src="https://data.typeracer.com/misc/badge?user=market_wizard" alt="Typeracer badge" width="146.5" height="293">
+
+
+Goal: 80 WPM.
