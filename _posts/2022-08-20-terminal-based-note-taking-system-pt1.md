@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Custom terminal-based note-taking system"
-date:   2022-08-20 21:04:00 +0200
+date:   2022-08-20 10:04:00 +0200
 categories: zettelkasten
 ---
 
