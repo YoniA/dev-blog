@@ -19,7 +19,7 @@ This request is handeled by the `articles#create` action, which creates a new ar
 
 We can simulate this with `curl`: 
 
-by running the following command from therminal:
+by running the following command from terminal:
 
 ```bash
 curl -X POST http://127.0.0.1:3000/articles -d "article[title]=How to POST with curl" -d "article[body]=this article was created with curl"
