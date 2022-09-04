@@ -45,7 +45,7 @@ We can disable that by adding the following line in `articles` controller, befor
 skip_before_action :verify_authenticity_token
 ```
 
-* This is of course not recommended, as it makes the app vulnerable to `CSRF` attacks. But we disable it just for the sake of demonstration.
+* This is of course not recommended, as it makes the app vulnerable to [CSRF attacks](https://stackoverflow.com/questions/941594/understanding-the-rails-authenticity-token). But we disable it just for the sake of demonstration.
 
 
 Now if we run the above `curl` command, a new post will be created!
