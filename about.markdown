@@ -64,7 +64,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
       <img
         width="159.6" height="199.6"
         class="book-cover"
-        src="https://images-na.ssl-images-amazon.com/images/I/41lozQ0E9ML._SX397_BO1,204,203,200_.jpg"
+        src="https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/41A-KL8Y1vL._SX379_BO1,204,203,200_.jpg"
       />
     </td>
   </tr>
@@ -79,7 +79,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
     </td>
     <td>
       <a
-        href="https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/41A-KL8Y1vL._SX379_BO1,204,203,200_.jpg"
+        href="https://www.amazon.com/Learning-SQL-Generate-Manipulate-Retrieve/dp/1492057614"
         target="blank"
         >Learning SQL</a
       >
