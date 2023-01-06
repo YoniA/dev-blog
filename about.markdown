@@ -75,15 +75,15 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         target="blank"
         >Practical<br/> Object-Oriented<br/> Design in Ruby</a
       >
-	    <div> progress: 38%</div>
+	    <div> progress: 90%</div>
     </td>
     <td>
       <a
-        href="https://www.amazon.com/Angular-Development-Typescript-Yakov-Fain/dp/1617295345"
+        href="https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/41A-KL8Y1vL._SX379_BO1,204,203,200_.jpg"
         target="blank"
-        >Practical<br/> Angular Development<br/> with TypeScript</a
+        >Learning SQL</a
       >
-	    <div> progress: 20%</div>
+	    <div> progress: 31%</div>
     </td>
   </tr>
 
