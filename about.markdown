@@ -43,14 +43,6 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
       >
 	    <div> progress: 68%</div>
     </td>
-    <td>
-      <a
-        href="https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275/ref=sr_1_1?crid=1I28TO08V3UKJ&keywords=practical+vim&qid=1642775788&sprefix=practical+vim%2Caps%2C223&sr=8-1"
-        target="blank"
-        >Practical Vim</a
-      >
-	    <div>progress: 65%</div>
-    </td>
   </tr>
   <tr>
     <td>
@@ -58,13 +50,6 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
         width="159.6" height="199.6"
         class="book-cover"
         src="https://images-na.ssl-images-amazon.com/images/I/51vkmxCfmRL._SX381_BO1,204,203,200_.jpg"
-      />
-    </td>
-    <td>
-      <img
-        width="159.6" height="199.6"
-        class="book-cover"
-        src="https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/41A-KL8Y1vL._SX379_BO1,204,203,200_.jpg"
       />
     </td>
   </tr>
@@ -124,6 +109,24 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
             >The Well-Grounded Rubyist</a>
         </td>
       </tr>
+  <tr>
+    <td>
+      <a
+        href="https://www.amazon.com/Practical-Vim-Edit-Speed-Thought/dp/1680501275/ref=sr_1_1?crid=1I28TO08V3UKJ&keywords=practical+vim&qid=1642775788&sprefix=practical+vim%2Caps%2C223&sr=8-1"
+        target="blank"
+        >Practical Vim</a
+      >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img
+        width="159.6" height="199.6"
+        class="book-cover"
+        src="https://images-na.ssl-images-amazon.com/images/I/51vkmxCfmRL._SX381_BO1,204,203,200_.jpg"
+      />
+    </td>
+  </tr>
     </table>
 
 
