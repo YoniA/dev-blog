@@ -104,7 +104,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
           <img
             width="159.6" height="199.6"
             class="book-cover"
-            src="	https://images-na.ssl-images-amazon.com/images/I/51dxkfagmwL._SX380_BO1,204,203,200_.jpg"
+            src="https://images-na.ssl-images-amazon.com/images/I/51dxkfagmwL._SX380_BO1,204,203,200_.jpg"
           />
         </td>
         <td>
