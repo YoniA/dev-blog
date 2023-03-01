@@ -51,7 +51,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
   <a
     href="https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330"
     target="blank"
-    >Practical Object-Oriented design in Ruby</a
+    >Practical<br>Object-Oriented<br>design in Ruby</a
   >
   <div>progress: 90%</div>
 </td>
@@ -127,7 +127,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
           <a
             href="https://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1617295213/ref=sr_1_1?keywords=the+well+grounded+rubyist&qid=1642778315&sprefix=the+well+grou%2Caps%2C312&sr=8-1"
             target="blank"
-            >The Well-Grounded Rubyist</a>
+            >The<br>Well-Grounded<br>Rubyist</a>
         </td>
       </tr>
       <tr>
