@@ -120,7 +120,7 @@ For any questions feel free to drop me a line: themarketwizard1@gmail.com.
           <a
             href="https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052/ref=sr_1_1?keywords=pragmatic+programmer&qid=1642778471&sprefix=pragmatic+%2Caps%2C195&sr=8-1"
             target="blank"
-            >The Pragmatic Programmer</a
+            >The Pragmatic<br>Programmer</a
           >
         </td>
         <td>
